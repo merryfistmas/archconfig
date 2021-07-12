@@ -1,0 +1,60 @@
+!! Color Scheme
+#include "/home/eshep/.colors/sourcerer"
+
+!! Xft settings
+<<<<<<< HEAD
+=======
+!!xft.dpi:				82
+>>>>>>> c1fd6c453af312b1735b8d36114311ce1b2fc075
+xft.dpi:				96
+xft.antialias:				false
+xft.rgba:				rgb
+xft.hinting:				true
+xft.hintstyle:				hintslight
+
+!! Appearance
+urxvt.termName:				rxvt-unicode
+urxvt.loginShell:			true
+urxvt.background:			black
+urxvt.foreground:			gray
+urxvt.depth:				32
+urxvt.fading:				false
+urxvt.trasparent:			false
+urxvt.geometry:				120x35
+urxvt.internalBorder:			3
+
+!! Font preferenes
+urxvt.font:				xft:Larabiefont Free:pixelsize=18
+urxvt.boldFont:				xft:Larabiefont Free:pixelsize=18:weight=bold
+urxvt.letterSpace:			1
+!urxvt.keysym.C-Up:			font-size:increase
+!urxvt.keysym.C-Down:			font-size:decrease
+!urxvt.keysym.C-S-Up:			font-size:incglobal
+!urxvt.keysym.C-S-Down:			font-size:decglobal
+!urxvt.keysym.C-equal:			font-size:reset
+!urxvt.keysym.C-slash:			font-size:show
+
+!! Scrolling
+urxvt.scrollStyle:			rxvt
+urxvt.scrollBar:			false
+urxvt.saveLines:			1000000
+
+!! Cursor
+urxvt.cursorBlink:			true
+urxvt.cursorColor:			#657b83
+urxvt.cursorUnderline:			false
+
+!! Pointer
+urxvt.pointerBlank:			true
+
+!! 2bwm
+twobwm.border_width: 2
+twobwm.outer_border: 3
+twobwm.focus_color: #8c9440
+twobwm.unfocus_color: #373b41
+twobwm.fixed_color: #a54242
+twobwm.unkill_color: #cc6666
+twobwm.outer_border_color: #8cff40
+twobwm.fixed_unkill_color: #cc9999
+twobwm.inverted_colors: false
+twobwm.enable_compton: false
