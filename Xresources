@@ -1,5 +1,5 @@
 !! Color Scheme
-#include "/home/eshep/.colors/sourcerer"
+#include "/home/[username]/.colors/[theme]"
 
 !! Xft settings
 <<<<<<< HEAD
@@ -42,7 +42,7 @@ urxvt.saveLines:			1000000
 !! Cursor
 urxvt.cursorBlink:			true
 urxvt.cursorColor:			#657b83
-urxvt.cursorUnderline:			false
+urxvt.cursorUnderline:	false
 
 !! Pointer
 urxvt.pointerBlank:			true
